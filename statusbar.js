@@ -9,9 +9,9 @@
         isError = isError || false;
 
         if(!isError) {
-            full_msg = '<div class="success-msg"><i class="fa fa-icon-ok-sign"></i> ' + msg + '</div>';
+            full_msg = '<div class="success-msg"><i class="fa fa-check-circle"></i> ' + msg + '</div>';
         } else {
-            full_msg = '<div class="error-msg"><i class="fa fa-icon-remove-sign"></i> ERROR: ' + msg + '</div>';
+            full_msg = '<div class="error-msg"><i class="fa fa-times-circle"></i> ERROR: ' + msg + '</div>';
         }
 
         $('#status-bar').html(full_msg);
